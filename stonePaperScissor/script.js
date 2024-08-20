@@ -12,7 +12,7 @@ const genComputerChoice = () => {
 };
 
 const drawGame = () => {
-  msg.innerText = "Game was a draw. Play again :) .";
+  msg.innerText = "Game was a draw. Play again :) ";
   msg.style.backgroundColor = "#081b31";
 };
 
@@ -25,7 +25,7 @@ const showWinner = (userWin) => {
   } else {
     compScore++;
     compScoreElem.innerText = compScore;
-    msg.innerText = "Oops! :( You lose the game.";
+    msg.innerText = "Oops! :( You lose the game";
     msg.style.backgroundColor = "red";
   }
 };
