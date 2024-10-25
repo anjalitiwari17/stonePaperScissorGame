@@ -12,8 +12,12 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    border: 3px solid black;
+
+    
   }
   
+
   h1 {
     background-color: #081b31;
     color: #fff;

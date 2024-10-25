@@ -20,7 +20,7 @@ const showWinner = (userWin) => {
   if (userWin) {
     userScore++;
     userScoreElem.innerText = userScore;
-    msg.innerText = "Hurrey!You win.";
+    msg.innerText = "Hurrey!You win :)";
     msg.style.backgroundColor = "green";
   } else {
     compScore++;
